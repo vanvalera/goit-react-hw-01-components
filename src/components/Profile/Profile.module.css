@@ -20,6 +20,7 @@
   display: flex;
   list-style: none;
   margin: 0;
+  background: rgb(110, 194, 246);
   padding: 0;
 }
 
@@ -37,9 +38,7 @@
   border-radius: 5px;
   background: white;
 }
-ul {
-  background: rgb(110, 194, 246);
-}
+
 .label {
   font-size: 32px;
   color: grey;

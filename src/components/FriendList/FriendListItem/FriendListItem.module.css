@@ -1,0 +1,31 @@
+.online {
+  background: green;
+}
+.offline {
+  background: red;
+}
+.status {
+  margin-bottom: auto;
+  margin-top: auto;
+  margin-right: 20px;
+  margin-left: 10px;
+  border-radius: 50%; /* Устанавливаем радиус границы в 50% для создания круга */
+  width: 25px; /* Задаем ширину элемента */
+  height: 25px; /* Задаем высоту элемента */
+}
+.name {
+  color: black;
+}
+.item {
+  display: flex;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.avatar {
+  width: 70px;
+  height: 70px;
+  display: block;
+  margin-bottom: auto;
+  margin-top: auto;
+  margin-right: 20px;
+}
