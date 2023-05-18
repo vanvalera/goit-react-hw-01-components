@@ -12,7 +12,6 @@ export default function Statistics({ title, stats }) {
     id,
     label,
     percentage,
-    backgroundColor: getRandomHexColor(),
   }));
 
   return (
@@ -20,11 +19,11 @@ export default function Statistics({ title, stats }) {
       {title && <h2 className={css.title}>{title}</h2>}
 
       <ul className={css.statsList}>
-        {items.map(({ id, label, percentage, backgroundColor }) => (
+        {items.map(({ id, label, percentage}) => (
           <li
             className={css.item}
             key={id}
-            style={{ backgroundColor }}
+            style={{ backgroundColor:getRandomHexColor() }}
           >
             <span className={css.label}>{label}</span>
             <span className={css.percentage}>{percentage}%</span>
